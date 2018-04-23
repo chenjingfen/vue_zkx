@@ -2,13 +2,13 @@
 <div>
   <header>
       <img src="../images/logo.png">
-      <title>全球鹰关键基础设施主动识别子系统</title>
+      <span class="title">全球鹰关键基础设施主动识别子系统</span>
   </header>
   <div class="container">
     {{msg}}
     <slot></slot>
   </div>
-<footer>底部</footer>
+<footer>©中国科学院信息工程研究所，2018年</footer>
 </div>
 </template>
 
@@ -26,11 +26,6 @@ export default {
 </script>
 
 <style scoped>
-  html,body{
-    height: 100%;
-    width: 100%;
-    margin: 0;
-  }
   header{
   position: fixed;
   top:0;
@@ -39,12 +34,25 @@ export default {
   width: 100%;
  }
   header img{
-      height: 80%;
+      width: 40px;
+      margin-top: 5px;
+      margin-left: 10px;
+      margin-right: 10px;
+  }
+  header .title{
+      color: #128dc8!important;
+      font-size: 24px;
+      vertical-align: super;
   }
   footer{
     position: fixed;
     bottom: 0;
     height: 30px;
+    color: #fff;
+    background: #000;
+    width: 100%;
+    padding: .3rem 0 0 1rem;
+    font-size: 14px;
   }
   .container{
     height: 100%;
