@@ -5,7 +5,6 @@
       <span class="title">全球鹰关键基础设施主动识别子系统</span>
   </header>
   <div class="container">
-    {{msg}}
     <slot></slot>
   </div>
 <footer>©中国科学院信息工程研究所，2018年</footer>
@@ -14,13 +13,7 @@
 
 <script>
 export default {
-  name: 'MainLayout',
-  data () {
-    return {
-      msg: 'helloWorld'
-    }
-  },
-  methods: {}
+  name: 'MainLayout'
 }
 
 </script>
