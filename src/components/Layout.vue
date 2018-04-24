@@ -1,5 +1,5 @@
 <template>
-<div>
+<div class="main-container">
   <header>
       <img src="../images/logo.png">
       <span class="title">全球鹰关键基础设施主动识别子系统</span>
@@ -47,8 +47,11 @@ export default {
     padding: .3rem 0 0 1rem;
     font-size: 14px;
   }
-  .container{
+  .main-container{
     height: 100%;
+  }
+  .container{
+    height: calc(100% - 100px);
     width: 100%;
     padding-top: 50px;
     padding-bottom: 50px;
