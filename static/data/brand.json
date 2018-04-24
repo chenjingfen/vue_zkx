@@ -1,0 +1,1026 @@
+[
+  {
+    "key": "Guardian",
+    "doc_count": 37666
+  },
+  {
+    "key": "Moxa",
+    "doc_count": 27967
+  },
+  {
+    "key": "Schneider",
+    "doc_count": 23458
+  },
+  {
+    "key": "Tridium",
+    "doc_count": 22849
+  },
+  {
+    "key": "Mitsubishi",
+    "doc_count": 20549
+  },
+  {
+    "key": "AB",
+    "doc_count": 18890
+  },
+  {
+    "key": "Omron",
+    "doc_count": 15924
+  },
+  {
+    "key": "Siemens",
+    "doc_count": 9941
+  },
+  {
+    "key": "vykon",
+    "doc_count": 6067
+  },
+  {
+    "key": "FacExp",
+    "doc_count": 4121
+  },
+  {
+    "key": "Phoenix",
+    "doc_count": 3420
+  },
+  {
+    "key": "GE",
+    "doc_count": 3192
+  },
+  {
+    "key": "Red Lion",
+    "doc_count": 3082
+  },
+  {
+    "key": "WebsOpen",
+    "doc_count": 2852
+  },
+  {
+    "key": "distech",
+    "doc_count": 2526
+  },
+  {
+    "key": "Webs",
+    "doc_count": 2264
+  },
+  {
+    "key": "CentraLine",
+    "doc_count": 1922
+  },
+  {
+    "key": "Staefa",
+    "doc_count": 1276
+  },
+  {
+    "key": "SMA Sunny",
+    "doc_count": 1115
+  },
+  {
+    "key": "Schneider Electric ",
+    "doc_count": 1072
+  },
+  {
+    "key": "Schneider Electric",
+    "doc_count": 1065
+  },
+  {
+    "key": "TAC",
+    "doc_count": 910
+  },
+  {
+    "key": "Solare Datensysteme GmbH",
+    "doc_count": 862
+  },
+  {
+    "key": "Allen-Bradley",
+    "doc_count": 827
+  },
+  {
+    "key": "Elster EnergyICT",
+    "doc_count": 683
+  },
+  {
+    "key": "webeasy.products",
+    "doc_count": 651
+  },
+  {
+    "key": "TELEMECANIQUE",
+    "doc_count": 613
+  },
+  {
+    "key": "JENEsys",
+    "doc_count": 609
+  },
+  {
+    "key": "WAGO",
+    "doc_count": 346
+  },
+  {
+    "key": "SpiderControl",
+    "doc_count": 282
+  },
+  {
+    "key": "Alerton-",
+    "doc_count": 269
+  },
+  {
+    "key": "Schneider Electric SAS",
+    "doc_count": 267
+  },
+  {
+    "key": "AB Regin",
+    "doc_count": 232
+  },
+  {
+    "key": "Trend",
+    "doc_count": 184
+  },
+  {
+    "key": "BACtalk",
+    "doc_count": 183
+  },
+  {
+    "key": "FSGEEM",
+    "doc_count": 182
+  },
+  {
+    "key": "ComfortPoint",
+    "doc_count": 152
+  },
+  {
+    "key": "SoftPLC",
+    "doc_count": 143
+  },
+  {
+    "key": "ABB",
+    "doc_count": 136
+  },
+  {
+    "key": "distechEU",
+    "doc_count": 130
+  },
+  {
+    "key": "ABB Stotz Kontakt",
+    "doc_count": 126
+  },
+  {
+    "key": "Rockwell Automation Allen-Bradley",
+    "doc_count": 118
+  },
+  {
+    "key": "Delta Electronics, Inc.",
+    "doc_count": 111
+  },
+  {
+    "key": "SE-Elektronic",
+    "doc_count": 104
+  },
+  {
+    "key": "tridium",
+    "doc_count": 98
+  },
+  {
+    "key": "novar.opus",
+    "doc_count": 74
+  },
+  {
+    "key": "EcoDevice",
+    "doc_count": 72
+  },
+  {
+    "key": "Trane",
+    "doc_count": 72
+  },
+  {
+    "key": "TELEMECANIQUE ",
+    "doc_count": 69
+  },
+  {
+    "key": "WebVision",
+    "doc_count": 63
+  },
+  {
+    "key": "Web-Stat",
+    "doc_count": 61
+  },
+  {
+    "key": "TACO",
+    "doc_count": 57
+  },
+  {
+    "key": "TridiumEMEA",
+    "doc_count": 51
+  },
+  {
+    "key": "intreo",
+    "doc_count": 49
+  },
+  {
+    "key": "vykon.security",
+    "doc_count": 49
+  },
+  {
+    "key": "Integra",
+    "doc_count": 48
+  },
+  {
+    "key": "WEG",
+    "doc_count": 48
+  },
+  {
+    "key": "Power Measurement",
+    "doc_count": 45
+  },
+  {
+    "key": "ThinkSimple",
+    "doc_count": 45
+  },
+  {
+    "key": "CROUZET ",
+    "doc_count": 42
+  },
+  {
+    "key": "HMS",
+    "doc_count": 36
+  },
+  {
+    "key": "Grundfos",
+    "doc_count": 33
+  },
+  {
+    "key": "PEWEU",
+    "doc_count": 31
+  },
+  {
+    "key": "cylon",
+    "doc_count": 31
+  },
+  {
+    "key": "novar.trend",
+    "doc_count": 30
+  },
+  {
+    "key": "Sanyo",
+    "doc_count": 29
+  },
+  {
+    "key": "JENEsysONE",
+    "doc_count": 25
+  },
+  {
+    "key": "NexRev",
+    "doc_count": 25
+  },
+  {
+    "key": "Computec Oy",
+    "doc_count": 24
+  },
+  {
+    "key": "MitsubishiElectric",
+    "doc_count": 24
+  },
+  {
+    "key": "Web",
+    "doc_count": 24
+  },
+  {
+    "key": "eIQ",
+    "doc_count": 21
+  },
+  {
+    "key": "IntegraOpen",
+    "doc_count": 20
+  },
+  {
+    "key": "LAB-EL",
+    "doc_count": 20
+  },
+  {
+    "key": "NRLiance",
+    "doc_count": 20
+  },
+  {
+    "key": "Telemecanique",
+    "doc_count": 20
+  },
+  {
+    "key": "AAON",
+    "doc_count": 19
+  },
+  {
+    "key": "Wurm GmbH & Co.KG",
+    "doc_count": 19
+  },
+  {
+    "key": "JASIC",
+    "doc_count": 18
+  },
+  {
+    "key": "IntergraOpen",
+    "doc_count": 17
+  },
+  {
+    "key": "RUSELCOM",
+    "doc_count": 17
+  },
+  {
+    "key": "Sta",
+    "doc_count": 17
+  },
+  {
+    "key": "Fa",
+    "doc_count": 16
+  },
+  {
+    "key": "SYNCHRONIC",
+    "doc_count": 15
+  },
+  {
+    "key": "TrendUS",
+    "doc_count": 15
+  },
+  {
+    "key": "W",
+    "doc_count": 15
+  },
+  {
+    "key": "wattstopper",
+    "doc_count": 15
+  },
+  {
+    "key": "Celeris",
+    "doc_count": 14
+  },
+  {
+    "key": "dis",
+    "doc_count": 14
+  },
+  {
+    "key": "AICW",
+    "doc_count": 13
+  },
+  {
+    "key": "AUTOINT",
+    "doc_count": 13
+  },
+  {
+    "key": "iSM",
+    "doc_count": 13
+  },
+  {
+    "key": "sysmik",
+    "doc_count": 13
+  },
+  {
+    "key": "S",
+    "doc_count": 12
+  },
+  {
+    "key": "Stulz",
+    "doc_count": 12
+  },
+  {
+    "key": "We",
+    "doc_count": 12
+  },
+  {
+    "key": "Honeywell",
+    "doc_count": 11
+  },
+  {
+    "key": "Reliance",
+    "doc_count": 11
+  },
+  {
+    "key": "vyko",
+    "doc_count": 11
+  },
+  {
+    "key": "DAC",
+    "doc_count": 10
+  },
+  {
+    "key": "Fac",
+    "doc_count": 10
+  },
+  {
+    "key": "HBA",
+    "doc_count": 10
+  },
+  {
+    "key": "kiltech",
+    "doc_count": 10
+  },
+  {
+    "key": "v",
+    "doc_count": 10
+  },
+  {
+    "key": "FacEx",
+    "doc_count": 9
+  },
+  {
+    "key": "Staef",
+    "doc_count": 9
+  },
+  {
+    "key": "TA",
+    "doc_count": 9
+  },
+  {
+    "key": "Valent",
+    "doc_count": 9
+  },
+  {
+    "key": "diste",
+    "doc_count": 9
+  },
+  {
+    "key": "Delta Electronic, Inc.",
+    "doc_count": 8
+  },
+  {
+    "key": "FacE",
+    "doc_count": 8
+  },
+  {
+    "key": "IO-30S-BM",
+    "doc_count": 8
+  },
+  {
+    "key": "Samson",
+    "doc_count": 8
+  },
+  {
+    "key": "St",
+    "doc_count": 8
+  },
+  {
+    "key": "Vics",
+    "doc_count": 8
+  },
+  {
+    "key": "vyk",
+    "doc_count": 8
+  },
+  {
+    "key": "Armstrong",
+    "doc_count": 7
+  },
+  {
+    "key": "Connexx-ion",
+    "doc_count": 7
+  },
+  {
+    "key": "Lantronix Inc",
+    "doc_count": 7
+  },
+  {
+    "key": "SLX",
+    "doc_count": 7
+  },
+  {
+    "key": "VirtuWattEnergyManager",
+    "doc_count": 7
+  },
+  {
+    "key": "WebsOpe",
+    "doc_count": 7
+  },
+  {
+    "key": "d",
+    "doc_count": 7
+  },
+  {
+    "key": "ENTES AS",
+    "doc_count": 6
+  },
+  {
+    "key": "HMS Industrial Networks AB",
+    "doc_count": 6
+  },
+  {
+    "key": "HUAWEI",
+    "doc_count": 6
+  },
+  {
+    "key": "JENEsy",
+    "doc_count": 6
+  },
+  {
+    "key": "Solidyne",
+    "doc_count": 6
+  },
+  {
+    "key": "Viessmann",
+    "doc_count": 6
+  },
+  {
+    "key": "WebsOp",
+    "doc_count": 6
+  },
+  {
+    "key": "dist",
+    "doc_count": 6
+  },
+  {
+    "key": "vykonHVAC",
+    "doc_count": 6
+  },
+  {
+    "key": "ACTL",
+    "doc_count": 5
+  },
+  {
+    "key": "Brodersen",
+    "doc_count": 5
+  },
+  {
+    "key": "Clorius",
+    "doc_count": 5
+  },
+  {
+    "key": "PoLabs",
+    "doc_count": 5
+  },
+  {
+    "key": "T",
+    "doc_count": 5
+  },
+  {
+    "key": "TAC.com-trol",
+    "doc_count": 5
+  },
+  {
+    "key": "WebsO",
+    "doc_count": 5
+  },
+  {
+    "key": "di",
+    "doc_count": 5
+  },
+  {
+    "key": "distec",
+    "doc_count": 5
+  },
+  {
+    "key": "vy",
+    "doc_count": 5
+  },
+  {
+    "key": "vykon.secu",
+    "doc_count": 5
+  },
+  {
+    "key": "Amcon",
+    "doc_count": 4
+  },
+  {
+    "key": "BA",
+    "doc_count": 4
+  },
+  {
+    "key": "Freedom",
+    "doc_count": 4
+  },
+  {
+    "key": "JENEs",
+    "doc_count": 4
+  },
+  {
+    "key": "Merlin Gerin",
+    "doc_count": 4
+  },
+  {
+    "key": "OpNet",
+    "doc_count": 4
+  },
+  {
+    "key": "WebVisio",
+    "doc_count": 4
+  },
+  {
+    "key": "goodman",
+    "doc_count": 4
+  },
+  {
+    "key": "snap",
+    "doc_count": 4
+  },
+  {
+    "key": "webeasy.product",
+    "doc_count": 4
+  },
+  {
+    "key": "Backbox",
+    "doc_count": 3
+  },
+  {
+    "key": "COPA-DATA France",
+    "doc_count": 3
+  },
+  {
+    "key": "COPALP",
+    "doc_count": 3
+  },
+  {
+    "key": "Danfoss Ltd",
+    "doc_count": 3
+  },
+  {
+    "key": "EVCO",
+    "doc_count": 3
+  },
+  {
+    "key": "IO-30P-ME",
+    "doc_count": 3
+  },
+  {
+    "key": "Niagara",
+    "doc_count": 3
+  },
+  {
+    "key": "Raritan",
+    "doc_count": 3
+  },
+  {
+    "key": "Stae",
+    "doc_count": 3
+  },
+  {
+    "key": "pymodbus",
+    "doc_count": 3
+  },
+  {
+    "key": "solvimus GmbH",
+    "doc_count": 3
+  },
+  {
+    "key": "ALPES TECHNOLOGIES",
+    "doc_count": 2
+  },
+  {
+    "key": "BACt",
+    "doc_count": 2
+  },
+  {
+    "key": "CPI",
+    "doc_count": 2
+  },
+  {
+    "key": "Comf",
+    "doc_count": 2
+  },
+  {
+    "key": "Comfor",
+    "doc_count": 2
+  },
+  {
+    "key": "Comfort",
+    "doc_count": 2
+  },
+  {
+    "key": "Delta Computer Systems",
+    "doc_count": 2
+  },
+  {
+    "key": "EnerCase",
+    "doc_count": 2
+  },
+  {
+    "key": "F",
+    "doc_count": 2
+  },
+  {
+    "key": "Fastwel Co. Ltd.",
+    "doc_count": 2
+  },
+  {
+    "key": "Hitachi-ies ",
+    "doc_count": 2
+  },
+  {
+    "key": "HydroLink",
+    "doc_count": 2
+  },
+  {
+    "key": "IO30",
+    "doc_count": 2
+  },
+  {
+    "key": "Pymodbus",
+    "doc_count": 2
+  },
+  {
+    "key": "RIS",
+    "doc_count": 2
+  },
+  {
+    "key": "TEU.euroJACE",
+    "doc_count": 2
+  },
+  {
+    "key": "TEU.pc",
+    "doc_count": 2
+  },
+  {
+    "key": "TEU.vykon",
+    "doc_count": 2
+  },
+  {
+    "key": "TRIOL",
+    "doc_count": 2
+  },
+  {
+    "key": "Techsys",
+    "doc_count": 2
+  },
+  {
+    "key": "Thermaltec",
+    "doc_count": 2
+  },
+  {
+    "key": "Vedero",
+    "doc_count": 2
+  },
+  {
+    "key": "Veris Industries ",
+    "doc_count": 2
+  },
+  {
+    "key": "Vico",
+    "doc_count": 2
+  },
+  {
+    "key": "facExp",
+    "doc_count": 2
+  },
+  {
+    "key": "webeasy.produc",
+    "doc_count": 2
+  },
+  {
+    "key": "A",
+    "doc_count": 1
+  },
+  {
+    "key": "ABB Oy / ABB Inc",
+    "doc_count": 1
+  },
+  {
+    "key": "AIC",
+    "doc_count": 1
+  },
+  {
+    "key": "AMiT spol. s r.o. Praha ",
+    "doc_count": 1
+  },
+  {
+    "key": "Apollo",
+    "doc_count": 1
+  },
+  {
+    "key": "Aurora",
+    "doc_count": 1
+  },
+  {
+    "key": "B",
+    "doc_count": 1
+  },
+  {
+    "key": "BACtal",
+    "doc_count": 1
+  },
+  {
+    "key": "BTS",
+    "doc_count": 1
+  },
+  {
+    "key": "Backb",
+    "doc_count": 1
+  },
+  {
+    "key": "Berger Lahr GmbH",
+    "doc_count": 1
+  },
+  {
+    "key": "C",
+    "doc_count": 1
+  },
+  {
+    "key": "CROUZET AUTOMATION",
+    "doc_count": 1
+  },
+  {
+    "key": "Cent",
+    "doc_count": 1
+  },
+  {
+    "key": "CentraLi",
+    "doc_count": 1
+  },
+  {
+    "key": "Co",
+    "doc_count": 1
+  },
+  {
+    "key": "ComfortPo",
+    "doc_count": 1
+  },
+  {
+    "key": "Danfoss",
+    "doc_count": 1
+  },
+  {
+    "key": "DegreeC",
+    "doc_count": 1
+  },
+  {
+    "key": "EffTec",
+    "doc_count": 1
+  },
+  {
+    "key": "Festo AG & Co. KG",
+    "doc_count": 1
+  },
+  {
+    "key": "HL",
+    "doc_count": 1
+  },
+  {
+    "key": "HORIBA GmbH",
+    "doc_count": 1
+  },
+  {
+    "key": "INTEG process group, inc.",
+    "doc_count": 1
+  },
+  {
+    "key": "In",
+    "doc_count": 1
+  },
+  {
+    "key": "Insight",
+    "doc_count": 1
+  },
+  {
+    "key": "Inte",
+    "doc_count": 1
+  },
+  {
+    "key": "IntegraControles",
+    "doc_count": 1
+  },
+  {
+    "key": "JE",
+    "doc_count": 1
+  },
+  {
+    "key": "JENEsysCL",
+    "doc_count": 1
+  },
+  {
+    "key": "Kamstrup A/S",
+    "doc_count": 1
+  },
+  {
+    "key": "Kollmorgen Steuerungstechnik GmbH",
+    "doc_count": 1
+  },
+  {
+    "key": "MB",
+    "doc_count": 1
+  },
+  {
+    "key": "NIBE",
+    "doc_count": 1
+  },
+  {
+    "key": "National instruments",
+    "doc_count": 1
+  },
+  {
+    "key": "NexR",
+    "doc_count": 1
+  },
+  {
+    "key": "QAGraphics",
+    "doc_count": 1
+  },
+  {
+    "key": "Rockwell Automation/Allen Bradley",
+    "doc_count": 1
+  },
+  {
+    "key": "Schaffner Deutschland GmbH",
+    "doc_count": 1
+  },
+  {
+    "key": "Servidyne",
+    "doc_count": 1
+  },
+  {
+    "key": "Soli",
+    "doc_count": 1
+  },
+  {
+    "key": "TAP",
+    "doc_count": 1
+  },
+  {
+    "key": "Tegg",
+    "doc_count": 1
+  },
+  {
+    "key": "UNITES-SYSTEMS A.S.",
+    "doc_count": 1
+  },
+  {
+    "key": "Val",
+    "doc_count": 1
+  },
+  {
+    "key": "Viconics",
+    "doc_count": 1
+  },
+  {
+    "key": "ViconicsGateway",
+    "doc_count": 1
+  },
+  {
+    "key": "Vykon",
+    "doc_count": 1
+  },
+  {
+    "key": "Web-St",
+    "doc_count": 1
+  },
+  {
+    "key": "WebV",
+    "doc_count": 1
+  },
+  {
+    "key": "WebVisi",
+    "doc_count": 1
+  },
+  {
+    "key": "Webdyn SA",
+    "doc_count": 1
+  },
+  {
+    "key": "WebsEU",
+    "doc_count": 1
+  },
+  {
+    "key": "Wipro",
+    "doc_count": 1
+  },
+  {
+    "key": "danfoss",
+    "doc_count": 1
+  },
+  {
+    "key": "e",
+    "doc_count": 1
+  },
+  {
+    "key": "goodma",
+    "doc_count": 1
+  },
+  {
+    "key": "hsdc",
+    "doc_count": 1
+  },
+  {
+    "key": "novar.",
+    "doc_count": 1
+  },
+  {
+    "key": "novar.op",
+    "doc_count": 1
+  },
+  {
+    "key": "novusedge",
+    "doc_count": 1
+  },
+  {
+    "key": "vykon.",
+    "doc_count": 1
+  },
+  {
+    "key": "wattstop",
+    "doc_count": 1
+  },
+  {
+    "key": "wattstopp",
+    "doc_count": 1
+  },
+  {
+    "key": "webeasy.pro",
+    "doc_count": 1
+  },
+  {
+    "key": "webeasy.produ",
+    "doc_count": 1
+  }
+]

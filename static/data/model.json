@@ -1,0 +1,666 @@
+[
+  {
+    "key":"Niagara",
+    "doc_count":19853
+  },
+  {
+    "key":"OZW672.01",
+    "doc_count":4062
+  },
+  {
+    "key":"NPort",
+    "doc_count":3862
+  },
+  {
+    "key":"WebBox-20",
+    "doc_count":1115
+  },
+  {
+    "key":"1763-L16AWA",
+    "doc_count":827
+  },
+  {
+    "key":"EnergyICT WebRTU",
+    "doc_count":683
+  },
+  {
+    "key":"Climatix WEB Server V1.00",
+    "doc_count":663
+  },
+  {
+    "key":"BMX NOE 0100 B",
+    "doc_count":533
+  },
+  {
+    "key":"PFC ETHERNET",
+    "doc_count":345
+  },
+  {
+    "key":"Phoenix-Contact/1.02",
+    "doc_count":279
+  },
+  {
+    "key":"CPU 315-2 DP",
+    "doc_count":170
+  },
+  {
+    "key":"SoftPLC",
+    "doc_count":143
+  },
+  {
+    "key":"CPU 315-2 PN/DP",
+    "doc_count":135
+  },
+  {
+    "key":"CPU 313C",
+    "doc_count":126
+  },
+  {
+    "key":"IM151-8 PN/DP CPU",
+    "doc_count":100
+  },
+  {
+    "key":"S7-300",
+    "doc_count":76
+  },
+  {
+    "key":"CPU 314C-2 PN/DP",
+    "doc_count":64
+  },
+  {
+    "key":"CPU 313C-2 DP",
+    "doc_count":59
+  },
+  {
+    "key":"CPU 314",
+    "doc_count":41
+  },
+  {
+    "key":"Meter ION 7330",
+    "doc_count":40
+  },
+  {
+    "key":"Anybus",
+    "doc_count":35
+  },
+  {
+    "key":"PLC_1",
+    "doc_count":32
+  },
+  {
+    "key":"CPU 312C",
+    "doc_count":31
+  },
+  {
+    "key":"PC35xV",
+    "doc_count":31
+  },
+  {
+    "key":"Siemens, SIMATIC, S7-200",
+    "doc_count":31
+  },
+  {
+    "key":"CPU 315-2PN/DP",
+    "doc_count":30
+  },
+  {
+    "key":"PLC-XU300",
+    "doc_count":29
+  },
+  {
+    "key":"CPU 314C-2 DP",
+    "doc_count":24
+  },
+  {
+    "key":"CPU 319-3 PN/DP",
+    "doc_count":24
+  },
+  {
+    "key":"CPU 318-2",
+    "doc_count":23
+  },
+  {
+    "key":"IM151-8F PN/DP CPU",
+    "doc_count":22
+  },
+  {
+    "key":"CPU 317-2 PN/DP",
+    "doc_count":21
+  },
+  {
+    "key":"CPU 314C-2 PtP",
+    "doc_count":19
+  },
+  {
+    "key":"CPU 315F-2 PN/DP",
+    "doc_count":16
+  },
+  {
+    "key":"CPU 317-2 DP",
+    "doc_count":16
+  },
+  {
+    "key":"CWC_V5",
+    "doc_count":16
+  },
+  {
+    "key":"050623",
+    "doc_count":14
+  },
+  {
+    "key":"S7-200",
+    "doc_count":14
+  },
+  {
+    "key":"CPU 312",
+    "doc_count":13
+  },
+  {
+    "key":"141223",
+    "doc_count":12
+  },
+  {
+    "key":"CPU 317F-2 PN/DP",
+    "doc_count":12
+  },
+  {
+    "key":"GmbH Klimatechnik",
+    "doc_count":12
+  },
+  {
+    "key":"FALCON",
+    "doc_count":11
+  },
+  {
+    "key":"SCADA/HMI system",
+    "doc_count":11
+  },
+  {
+    "key":"CPU313 C(1)",
+    "doc_count":9
+  },
+  {
+    "key":"CPU 313C-2 DP(1)",
+    "doc_count":8
+  },
+  {
+    "key":"RT",
+    "doc_count":8
+  },
+  {
+    "key":"RUGGEDCOM RuggedSwitch",
+    "doc_count":7
+  },
+  {
+    "key":"LAMBDA",
+    "doc_count":6
+  },
+  {
+    "key":"Vitogate 300",
+    "doc_count":6
+  },
+  {
+    "key":"130730",
+    "doc_count":5
+  },
+  {
+    "key":"CPU 317F-3 PN/DP",
+    "doc_count":5
+  },
+  {
+    "key":"ISC SCADA",
+    "doc_count":5
+  },
+  {
+    "key":"Lambda",
+    "doc_count":5
+  },
+  {
+    "key":"RG-XXCS",
+    "doc_count":5
+  },
+  {
+    "key":"CPU 315-2 DP 256kB",
+    "doc_count":4
+  },
+  {
+    "key":"CPU 315F-2 DP",
+    "doc_count":4
+  },
+  {
+    "key":"Meter ION 7350",
+    "doc_count":4
+  },
+  {
+    "key":"CPU",
+    "doc_count":3
+  },
+  {
+    "key":"CPU315-2 PN/DP",
+    "doc_count":3
+  },
+  {
+    "key":"Phoenix-Contact/1.01",
+    "doc_count":3
+  },
+  {
+    "key":" ��",
+    "doc_count":2
+  },
+  {
+    "key":"315 PN/DP",
+    "doc_count":2
+  },
+  {
+    "key":"A3-8 80305-471",
+    "doc_count":2
+  },
+  {
+    "key":"Blumentobel",
+    "doc_count":2
+  },
+  {
+    "key":"CPU 315-2 DP(1)",
+    "doc_count":2
+  },
+  {
+    "key":"CPU 317T-2 DP",
+    "doc_count":2
+  },
+  {
+    "key":"CPU 319F-3 PN/DP",
+    "doc_count":2
+  },
+  {
+    "key":"CPU1515",
+    "doc_count":2
+  },
+  {
+    "key":"CPU315-2 PN/DP(1)",
+    "doc_count":2
+  },
+  {
+    "key":"Chorro",
+    "doc_count":2
+  },
+  {
+    "key":"PLC_2",
+    "doc_count":2
+  },
+  {
+    "key":"TrilKantel",
+    "doc_count":2
+  },
+  {
+    "key":"VIPA - CPU315SN",
+    "doc_count":2
+  },
+  {
+    "key":"Valdigrano",
+    "doc_count":2
+  },
+  {
+    "key":" CPU315-PN/DP",
+    "doc_count":1
+  },
+  {
+    "key":"004642",
+    "doc_count":1
+  },
+  {
+    "key":"01_MV_Boring_1",
+    "doc_count":1
+  },
+  {
+    "key":"1#_BengZhan",
+    "doc_count":1
+  },
+  {
+    "key":"1000K1",
+    "doc_count":1
+  },
+  {
+    "key":"601A1 CPU 315-2 DP",
+    "doc_count":1
+  },
+  {
+    "key":"AKM_Lagunestyring",
+    "doc_count":1
+  },
+  {
+    "key":"API_1",
+    "doc_count":1
+  },
+  {
+    "key":"AS1 LTA Labor",
+    "doc_count":1
+  },
+  {
+    "key":"Aliga_Camaras",
+    "doc_count":1
+  },
+  {
+    "key":"Bad72",
+    "doc_count":1
+  },
+  {
+    "key":"Barrit_Skovby_VV",
+    "doc_count":1
+  },
+  {
+    "key":"Bengelbruck",
+    "doc_count":1
+  },
+  {
+    "key":"CPU 313C 2DP",
+    "doc_count":1
+  },
+  {
+    "key":"CPU 313C-2 DP Holsted",
+    "doc_count":1
+  },
+  {
+    "key":"CPU 313SC",
+    "doc_count":1
+  },
+  {
+    "key":"CPU 314C-2 DP(1)",
+    "doc_count":1
+  },
+  {
+    "key":"CPU 314C-2 DP_Racao",
+    "doc_count":1
+  },
+  {
+    "key":"CPU 314SB/DPM",
+    "doc_count":1
+  },
+  {
+    "key":"CPU 314_1",
+    "doc_count":1
+  },
+  {
+    "key":"CPU 314_V3",
+    "doc_count":1
+  },
+  {
+    "key":"CPU 315-2",
+    "doc_count":1
+  },
+  {
+    "key":"CPU 315-2 DP2",
+    "doc_count":1
+  },
+  {
+    "key":"CPU 315-2 PN/DP(1)",
+    "doc_count":1
+  },
+  {
+    "key":"CPU 315F-2PN/DP",
+    "doc_count":1
+  },
+  {
+    "key":"CPU 317-2 DP Line",
+    "doc_count":1
+  },
+  {
+    "key":"CPU 317-2PN/DP",
+    "doc_count":1
+  },
+  {
+    "key":"CPU 317F-2 DP",
+    "doc_count":1
+  },
+  {
+    "key":"CPU 319F-3 PN/DP_1",
+    "doc_count":1
+  },
+  {
+    "key":"CPU 417-4 H",
+    "doc_count":1
+  },
+  {
+    "key":"CPU-Langnau",
+    "doc_count":1
+  },
+  {
+    "key":"CPU315 192.168.79.59 ",
+    "doc_count":1
+  },
+  {
+    "key":"CPU315-2 DP(1)",
+    "doc_count":1
+  },
+  {
+    "key":"CPU315-2 PN/DP-Test",
+    "doc_count":1
+  },
+  {
+    "key":"CPU317-2",
+    "doc_count":1
+  },
+  {
+    "key":"CPU318-2 DP(1)",
+    "doc_count":1
+  },
+  {
+    "key":"CPU_Intercarta",
+    "doc_count":1
+  },
+  {
+    "key":"CPU_castello",
+    "doc_count":1
+  },
+  {
+    "key":"CPU_filotrano",
+    "doc_count":1
+  },
+  {
+    "key":"CPU_stdenis",
+    "doc_count":1
+  },
+  {
+    "key":"Data Concentrator",
+    "doc_count":1
+  },
+  {
+    "key":"Dnevna CPU 314C-2 PN/DP",
+    "doc_count":1
+  },
+  {
+    "key":"ET200S_Schaltschrank",
+    "doc_count":1
+  },
+  {
+    "key":"FD3_CPU 314C-2 PN/DP",
+    "doc_count":1
+  },
+  {
+    "key":"HRL-CPU-201",
+    "doc_count":1
+  },
+  {
+    "key":"IM 151-8 CPU PN/DP",
+    "doc_count":1
+  },
+  {
+    "key":"IM 151-8 CPU PN/DP with",
+    "doc_count":1
+  },
+  {
+    "key":"IM151-7 CPU",
+    "doc_count":1
+  },
+  {
+    "key":"IO-IPC",
+    "doc_count":1
+  },
+  {
+    "key":"Insus_Howden1",
+    "doc_count":1
+  },
+  {
+    "key":"KTE_Rotary",
+    "doc_count":1
+  },
+  {
+    "key":"KaplamaCINKO_PLC",
+    "doc_count":1
+  },
+  {
+    "key":"Kaplama_PLC",
+    "doc_count":1
+  },
+  {
+    "key":"Lab_Safety",
+    "doc_count":1
+  },
+  {
+    "key":"MAIN PANEL PLC",
+    "doc_count":1
+  },
+  {
+    "key":"MAIN_CPU",
+    "doc_count":1
+  },
+  {
+    "key":"MPR-63 ",
+    "doc_count":1
+  },
+  {
+    "key":"MPR-63-",
+    "doc_count":1
+  },
+  {
+    "key":"Master CPU",
+    "doc_count":1
+  },
+  {
+    "key":"Meter ION 8500",
+    "doc_count":1
+  },
+  {
+    "key":"NEMAHA",
+    "doc_count":1
+  },
+  {
+    "key":"NmsHopferstadt",
+    "doc_count":1
+  },
+  {
+    "key":"Oest_2236",
+    "doc_count":1
+  },
+  {
+    "key":"PC70xP",
+    "doc_count":1
+  },
+  {
+    "key":"PLC",
+    "doc_count":1
+  },
+  {
+    "key":"PLC_Kelder",
+    "doc_count":1
+  },
+  {
+    "key":"PLC_MTA_Lehern_KF",
+    "doc_count":1
+  },
+  {
+    "key":"PLC_PLANTA",
+    "doc_count":1
+  },
+  {
+    "key":"PLC_Papile",
+    "doc_count":1
+  },
+  {
+    "key":"PLC_Sta3",
+    "doc_count":1
+  },
+  {
+    "key":"PLC_Sta4",
+    "doc_count":1
+  },
+  {
+    "key":"PRESAREY_PLC",
+    "doc_count":1
+  },
+  {
+    "key":"PackML_2Axis",
+    "doc_count":1
+  },
+  {
+    "key":"PocoLoco",
+    "doc_count":1
+  },
+  {
+    "key":"Rack0-CPU/Komm",
+    "doc_count":1
+  },
+  {
+    "key":"SELSAFosfat_PLC",
+    "doc_count":1
+  },
+  {
+    "key":"SIMATIC_HMI",
+    "doc_count":1
+  },
+  {
+    "key":"SKRUBER_PLC",
+    "doc_count":1
+  },
+  {
+    "key":"SPS 315",
+    "doc_count":1
+  },
+  {
+    "key":"Steuerung 1",
+    "doc_count":1
+  },
+  {
+    "key":"Terminal talve",
+    "doc_count":1
+  },
+  {
+    "key":"Tomsani1_Grup1",
+    "doc_count":1
+  },
+  {
+    "key":"Tomsani2_Grup2",
+    "doc_count":1
+  },
+  {
+    "key":"Tomsani3_Grup2",
+    "doc_count":1
+  },
+  {
+    "key":"VIPA 313",
+    "doc_count":1
+  },
+  {
+    "key":"VIPA CPU 313C-2 DP",
+    "doc_count":1
+  },
+  {
+    "key":"VIPA_014-CEF0R00",
+    "doc_count":1
+  },
+  {
+    "key":"VIPA_313",
+    "doc_count":1
+  },
+  {
+    "key":"Wehr",
+    "doc_count":1
+  },
+  {
+    "key":"Zentralbaugruppe CPU314C",
+    "doc_count":1
+  },
+  {
+    "key":"pn-io",
+    "doc_count":1
+  }
+]

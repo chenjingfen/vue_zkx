@@ -54,3 +54,10 @@ export default {
     padding-bottom: 50px;
   }
 </style>
+
+<style>
+  html{
+    background: url("../images/bg.png");
+    color: #fff;
+  }
+</style>

@@ -1,0 +1,74 @@
+[
+  {
+    "key": "Guardian AST",
+    "doc_count": 37666
+  },
+  {
+    "key": "HART-IP",
+    "doc_count": 35993
+  },
+  {
+    "key": "Tridium Niagara Fox",
+    "doc_count": 28788
+  },
+  {
+    "key": "Modbus",
+    "doc_count": 28530
+  },
+  {
+    "key": "Moxa Nport",
+    "doc_count": 24105
+  },
+  {
+    "key": "MELSEC-Q",
+    "doc_count": 20549
+  },
+  {
+    "key": "CSPV4",
+    "doc_count": 18890
+  },
+  {
+    "key": "FINS",
+    "doc_count": 15924
+  },
+  {
+    "key": "EtherNet/IP",
+    "doc_count": 12672
+  },
+  {
+    "key": "CoDeSys",
+    "doc_count": 10005
+  },
+  {
+    "key": "IEC 61850",
+    "doc_count": 7647
+  },
+  {
+    "key": "S7",
+    "doc_count": 3799
+  },
+  {
+    "key": "IEC 104",
+    "doc_count": 3592
+  },
+  {
+    "key": "PCWorx",
+    "doc_count": 3420
+  },
+  {
+    "key": "GE-SRTP",
+    "doc_count": 3192
+  },
+  {
+    "key": "Crimson V3",
+    "doc_count": 3082
+  },
+  {
+    "key": "ProConOS",
+    "doc_count": 2168
+  },
+  {
+    "key": "DNP3",
+    "doc_count": 299
+  }
+]
