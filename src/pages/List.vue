@@ -50,6 +50,11 @@ export default {
       console.log(item, key)
       location.href = 'detailed?type=' + key + '&value=' + item
     }
+  },
+  watch: {
+    items: function () {
+      console.log('变化了~')
+    }
   }
 }
 </script>

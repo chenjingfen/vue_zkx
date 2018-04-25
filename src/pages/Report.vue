@@ -18,6 +18,17 @@
           </div>
           <div class="main">
             <div class="main-center">
+              <div class="main-top">
+                <h1>工控专题(设备总数：{{count['allCount']}})</h1>
+                <div class="label-count">
+                  <label>协议数：{{count['serviceCount']}}</label>
+                  <label>端口数：{{count['portCount']}}</label>
+                  <label>类型数：{{count['typeCount']}}</label>
+                  <label>品牌数：{{count['brandCount']}}</label>
+                  <label>型号数：{{count['modelCount']}}</label>
+
+                </div>
+              </div>
               <world-map id="main-map"
                          :data="country"
               ></world-map>
@@ -209,13 +220,23 @@ export default {
     height: 100%;
   }
   .main-center{
-    height: 66.666666%;
+    height: 64.666666%;
     width: 100%;
     border-bottom: 1px solid rgba(158, 158, 158, 0.72);
     border-left: 1px solid rgba(158, 158, 158, 0.72);
   }
+  .main-top{
+    height: 15%;
+  }
+  .main-top h1,.main-top .label-count{
+    text-align: center;
+  }
+
+  .label-count label{
+    margin-right: 20px;
+  }
   #main-map{
-    height: 100%;
+    height: 85%;
     width: 100%;
     display: inline-block;
   }
