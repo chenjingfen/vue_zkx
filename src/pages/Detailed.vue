@@ -3,7 +3,7 @@
    <div class="detailed-container">
      <div class="left">
        <div class="input-btn">
-         <input :value="query"/>
+         <input v-model="query" @keyup.13="submitClick"/>
          <button class="submit-btn" @click="submitClick">搜索</button>
        </div>
        <div class="left-dotted">总数</div>
@@ -28,7 +28,7 @@
        ></list-left>
      </div>
      <div class="right">
-       <key-item :data="query"></key-item>
+       <key-item :data="queryItem"></key-item>
        <list-right :data="data['list']"></list-right>
      </div>
    </div>
@@ -60,6 +60,7 @@ export default {
   data () {
     return {
       query: '',
+      queryItem: '',
       data: {
         count: 0,
         agg: [],
@@ -77,8 +78,53 @@ export default {
       let searches = location.search.replace('?', '').split('&')
       let value = searches[1].substr(searches[1].indexOf('=') + 1, searches[1].length).replace(/%20/g, ' ')
       return value
+    }
+  },
+  methods: {
+    submitClick: function () {
+      let query = this.searchData()
+      this.$http.post('/api/port_info', query).then((res) => {
+        let data = res.data
+        this.parseData(data)
+        console.log(data)
+      }).catch((err) => {
+        console.log(err)
+      })
+    },
+    parseData: function (data) {
+      this.data.count = data['_total']
+      this.queryItem = this.query = this.parseQuery(JSON.parse(data['_query']))
+      this.data.agg = data['_aggregation']
+      this.data.list = data['_data']
+    },
+    parseQuery: function (query) {
+      let keys = query._keyword._must
+      let items = query._accuracy._must
+      let _query = ''
+      if (keys.length > 0) {
+        keys.forEach((key) => {
+          _query = _query + key + ','
+        })
+        _query = _query.substr(0, _query.length - 1)
+      }
+      if (items.length > 0) {
+        if (_query.length > 0) {
+          _query = _query + ','
+        }
+        items.forEach((item) => {
+          for (let key in item) {
+            console.log(key)
+            _query = _query + key.substr(key.lastIndexOf('.') + 1, key.length) + ':' + item[key] + ','
+          }
+        })
+        _query = _query.substr(0, _query.length - 1)
+      }
+      console.log(_query)
+      return _query
     },
     searchData: function () {
+      console.log('--------this.query-----------')
+      console.log(this.query)
       let aggBy = {
         'portInfo.port': 5,
         'portInfo.protocol': 5,
@@ -126,7 +172,7 @@ export default {
       } else {
         let items = this.query.split(',')
         items.forEach((item) => {
-          if (item.indexOf(':')) {
+          if (item.indexOf(':') > -1) {
             let key = item.substr(0, item.indexOf(':'))
             let value = item.substr(item.indexOf(':') + 1, item.length)
             console.log(key, value)
@@ -161,17 +207,17 @@ export default {
                 _query._accuracy._must.push({'portInfo.deviceInfo.deviceType': value})
                 break
               }
-              case 'country' :
+              case 'zhCountry' :
               {
                 _query._accuracy._must.push({'portInfo.deviceInfo.deviceLocation.zhCountry': value})
                 break
               }
-              case 'province' :
+              case 'zhProvince' :
               {
                 _query._accuracy._must.push({'portInfo.deviceInfo.deviceLocation.zhProvince': value})
                 break
               }
-              case 'city' :
+              case 'zhCity' :
               {
                 _query._accuracy._must.push({'portInfo.deviceInfo.deviceLocation.zhCity': value})
                 break
@@ -185,47 +231,9 @@ export default {
       }
     }
   },
-  methods: {
-    submitClick: function () {
-      let query = this.searchData
-      this.$http.post('/api/port_info', query).then((res) => {
-        let data = res.data
-        this.parseData(data)
-        console.log(data)
-      }).catch((err) => {
-        console.log(err)
-      })
-    },
-    parseData: function (data) {
-      this.data.count = data['_total']
-      this.query = this.parseQuery(JSON.parse(data['_query']))
-      this.data.agg = data['_aggregation']
-      this.data.list = data['_data']
-      console.log('--------this.data.list----------')
-      console.log(this.data.list)
-    },
-    parseQuery: function (query) {
-      let keys = query._keyword._must
-      let items = query._accuracy._must
-      let _query = ''
-      if (keys.length > 0) {
-        keys.forEach((key) => { _query = _query + key + ',' })
-        _query = _query.substr(0, query.length - 1)
-      }
-      if (items.length > 0) {
-        items.forEach((item) => {
-          for (let key in item) {
-            console.log(key)
-            _query = _query + key.substr(key.lastIndexOf('.') + 1, key.length) + ':' + item[key] + ','
-          }
-        })
-        _query = _query.substr(0, _query.length - 1)
-      }
-      return _query
-    }
-  },
   watch: {
-    data: function () {
+    query: function () {
+      console.log('改变啦')
     }
   }
 }
