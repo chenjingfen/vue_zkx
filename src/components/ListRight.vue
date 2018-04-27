@@ -39,13 +39,12 @@ export default {
 </script>
 
 <style scoped>
-  .devices{
-    margin-bottom: 100px;
-  }
   pre{
     white-space: pre-line;
     max-height: 200px;
     width: 100%;
+    overflow: auto;
+    word-break: break-all;
   }
   .item-left{
     width: 25%;
@@ -100,4 +99,30 @@ export default {
     padding: 0 5px 5px 5px;
   }
 
+</style>
+
+<style>
+  body::-webkit-scrollbar{
+    display: none;
+  }
+  ::-webkit-scrollbar{
+    width: 5px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0);
+  }
+  ::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 5px rgba(0,0,0,0);
+    background-color: rgba(0,0,0,0);
+  }
+  ::-webkit-scrollbar-button{
+    height: 10px;
+    background-color: #fff;
+  }
+  ::-webkit-scrollbar-thumb{
+    border-radius: 20px;
+    background-color: rgba(0,0,0,0);
+    cursor: pointer;
+    background-color: #048AE9;
+  }
 </style>

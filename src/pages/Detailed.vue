@@ -28,8 +28,11 @@
        ></list-left>
      </div>
      <div class="right">
-       <key-item :data="queryItem"></key-item>
+       <key-item :data="queryItem"
+                 @handleDelete="handleDelete"
+       ></key-item>
        <list-right :data="data['list']"></list-right>
+       <pagination :data="page"></pagination>
      </div>
    </div>
   </main-layout>
@@ -40,13 +43,15 @@ import MainLayout from '../components/Layout.vue'
 import ListLeft from '../components/ListLeft.vue'
 import ListRight from '../components/ListRight.vue'
 import KeyItem from '../components/KeyItem.vue'
+import Pagination from '../components/Pagination.vue'
 
 export default {
   components: {
     MainLayout,
     ListLeft,
     ListRight,
-    KeyItem
+    KeyItem,
+    Pagination
   },
   beforeCreate () {
     let searches = location.search.replace('?', '').split('&')
@@ -61,11 +66,28 @@ export default {
     return {
       query: '',
       queryItem: '',
+      queryListArray: {
+        protocol: [],
+        port: [],
+        deviceModel: [],
+        deviceBrand: [],
+        deviceCategory: [],
+        deviceType: [],
+        zhCountry: [],
+        zhProvince: [],
+        zhCity: [],
+        keyWords: []
+      },
       data: {
         count: 0,
         agg: [],
         list: []
-      }
+      },
+      page: {
+        currentPage: 0,
+        allPage: 0
+      },
+      from: 0
     }
   },
   computed: {
@@ -82,6 +104,10 @@ export default {
   },
   methods: {
     submitClick: function () {
+      this.searchListAgg()
+      this.from = 0
+    },
+    searchListAgg: function () {
       let query = this.searchData()
       this.$http.post('/api/port_info', query).then((res) => {
         let data = res.data
@@ -90,12 +116,29 @@ export default {
       }).catch((err) => {
         console.log(err)
       })
+      if (this.from === 0) {
+        let aggQuery = this.searchAggData(query)
+        this.$http.post('/api/port_info', aggQuery).then((res) => {
+          let data = res.data
+          this.data.agg = data['_aggregation']
+          console.log(data)
+        }).catch((err) => {
+          console.log(err)
+        })
+      }
     },
     parseData: function (data) {
-      this.data.count = data['_total']
-      this.queryItem = this.query = this.parseQuery(JSON.parse(data['_query']))
-      this.data.agg = data['_aggregation']
+      let _query = JSON.parse(data['_query'])
+      let _total = data['_total']
+      let _size = data['_size']
+      let _from = _query['_from']
+
+      this.data.count = _total
+      this.queryItem = this.query = this.parseQuery(_query)
+      this.updateQueryArray(this.queryItem)
       this.data.list = data['_data']
+      this.page.currentPage = parseInt(_from / _size) + 1
+      this.page.allPage = parseInt(_total / _size) + 1
     },
     parseQuery: function (query) {
       let keys = query._keyword._must
@@ -125,16 +168,8 @@ export default {
     searchData: function () {
       console.log('--------this.query-----------')
       console.log(this.query)
-      let aggBy = {
-        'portInfo.port': 5,
-        'portInfo.protocol': 5,
-        'portInfo.deviceInfo.deviceType': 5,
-        'portInfo.deviceInfo.deviceModel': 5,
-        'portInfo.deviceInfo.deviceLocation.zhCountry': 5,
-        'portInfo.deviceInfo.deviceBrand': 5
-      }
       let _query = {
-        _from: 0,
+        _from: this.from,
         _size: 10,
         _minimumShould: 2,
         _keyword: {
@@ -147,8 +182,7 @@ export default {
           _should: [
             {lastModified: '1520784000000~' + new Date().getTime()}
           ]
-        },
-        _aggBy: aggBy
+        }
       }
       if (this.query.length === 0) {
         switch (this.type) {
@@ -229,7 +263,60 @@ export default {
         })
         return _query
       }
+    },
+    searchAggData: function (query) {
+      let aggBy = {
+        'portInfo.port': 5,
+        'portInfo.protocol': 5,
+        'portInfo.deviceInfo.deviceType': 5,
+        'portInfo.deviceInfo.deviceModel': 5,
+        'portInfo.deviceInfo.deviceLocation.zhCountry': 5,
+        'portInfo.deviceInfo.deviceBrand': 5
+      }
+      query['_aggBy'] = aggBy
+      return query
+    },
+    updateQueryArray: function (queryItem) {
+      for (let item in this.queryListArray) {
+        this.queryListArray[item] = []
+      }
+      queryItem.split(',').forEach((item) => {
+        let index = item.indexOf(':')
+        if (index > -1) {
+          let key = item.substr(0, index)
+          let value = item.substr(index + 1, item.length)
+          if (this.queryListArray[key] && this.queryListArray[key].indexOf(value) === -1) {
+            this.queryListArray[key].push(value)
+          }
+        } else {
+          if (this.queryListArray.keyWords.indexOf(item) === -1) {
+            this.queryListArray.keyWords.push(item)
+          }
+        }
+      })
+    },
+    handleDelete: function (item) {
+      //      let index = item.indexOf(':')
+      //
+      //      if (index > -1) {
+      //        let key = item.substr(0, index)
+      //        let value = item.substr(index + 1, item.length)
+      //        if (this.queryListArray[key] && this.queryListArray[key].indexOf(value) === -1) {
+      //          this.queryListArray[key].push(value)
+      //        }
+      //      } else {
+      //        if (this.queryListArray.keyWords.indexOf(item) === -1) {
+      //          this.queryListArray.keyWords.push(item)
+      //        }
+      //      }
+      this.query = this.query.replace(item, '')
+      this.query = this.query.split(',').filter((item) => item.length > 0).join(',')
+      if (this.query.length === 0) {
+        this.query = '*'
+      }
+      this.submitClick()
     }
+
   },
   watch: {
     query: function () {
@@ -289,6 +376,7 @@ export default {
     display: inline-block;
     float: right;
     margin-left: 20px;
+    margin-bottom: 100px;
   }
 </style>
 
