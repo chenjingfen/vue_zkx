@@ -32,7 +32,9 @@
                  @handleDelete="handleDelete"
        ></key-item>
        <list-right :data="data['list']"></list-right>
-       <pagination :data="page"></pagination>
+       <pagination :data="page"
+                   @handleSearch="handleSearch"
+       ></pagination>
      </div>
    </div>
   </main-layout>
@@ -296,27 +298,17 @@ export default {
       })
     },
     handleDelete: function (item) {
-      //      let index = item.indexOf(':')
-      //
-      //      if (index > -1) {
-      //        let key = item.substr(0, index)
-      //        let value = item.substr(index + 1, item.length)
-      //        if (this.queryListArray[key] && this.queryListArray[key].indexOf(value) === -1) {
-      //          this.queryListArray[key].push(value)
-      //        }
-      //      } else {
-      //        if (this.queryListArray.keyWords.indexOf(item) === -1) {
-      //          this.queryListArray.keyWords.push(item)
-      //        }
-      //      }
       this.query = this.query.replace(item, '')
       this.query = this.query.split(',').filter((item) => item.length > 0).join(',')
       if (this.query.length === 0) {
         this.query = '*'
       }
       this.submitClick()
+    },
+    handleSearch: function (page) {
+      this.from = (page - 1) * 10
+      this.searchListAgg()
     }
-
   },
   watch: {
     query: function () {
